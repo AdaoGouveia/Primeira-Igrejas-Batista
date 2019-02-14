@@ -32,7 +32,7 @@ namespace PIBLUANDA
 
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            //Muda a tua vida Deus vai te abençoar
             WebSite oSite = new WebSite();
             Service oService = new Service();
 
