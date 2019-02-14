@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C39265B2-4CE0-40CB-B0C5-FE5E783E8E86}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PIBLUANDA</RootNamespace>
+    <AssemblyName>PIBLUANDA</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\PIBLUANDA.dll" />
+    <Content Include="bin\PIBLUANDA.pdb" />
+    <Content Include="contacto.aspx" />
+    <Content Include="css\animate.css" />
+    <Content Include="css\bootstrap-touch-slider.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\color-schemes\skin-main.css" />
+    <Content Include="css\font-awesome-animation.min.css" />
+    <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\navigation.css" />
+    <Content Include="css\owl.carousel.css" />
+    <Content Include="css\owl.theme.css" />
+    <Content Include="css\owl.transitions.css" />
+    <Content Include="css\responsive.css" />
+    <Content Include="css\simple-line-icons.css" />
+    <Content Include="css\styles.css" />
+    <Content Include="css\swipebox.css" />
+    <Content Include="css\YTPlayer.css" />
+    <Content Include="default.aspx" />
+    <Content Include="detalheartigo.aspx" />
+    <Content Include="Gruposcorais.aspx" />
+    <Content Include="img\content\blogpost_01.jpg" />
+    <Content Include="img\content\blogpost_02.jpg" />
+    <Content Include="img\content\blogpost_03.jpg" />
+    <Content Include="img\content\footer_bg-1.jpg" />
+    <Content Include="img\content\fundraising_activism_11-70x70.jpg" />
+    <Content Include="img\content\fundraising_activism_33-70x70.jpg" />
+    <Content Include="img\content\our-church.jpg" />
+    <Content Include="img\Elements\footer_element.jpg" />
+    <Content Include="img\gallery\1.jpg" />
+    <Content Include="img\gallery\3.jpg" />
+    <Content Include="img\gallery\5-wide.jpg" />
+    <Content Include="img\header-banners\holyspirit_sider_001_ok.jpg" />
+    <Content Include="img\header-banners\holyspirit_sider_002_ok.jpg" />
+    <Content Include="img\header-banners\holyspirit_sider_003_ok.jpg" />
+    <Content Include="img\header-banners\holyspirit_wordpress_theme_themeslr-10.jpg" />
+    <Content Include="img\header-banners\holyspirit_wordpress_theme_themeslr-41.jpg" />
+    <Content Include="img\header-banners\overlay_MEMBERS-min.png" />
+    <Content Include="img\header-banners\semitransparent_blog-min.png" />
+    <Content Include="img\instagram-feed\insta_01.jpg" />
+    <Content Include="img\instagram-feed\insta_02.jpg" />
+    <Content Include="img\instagram-feed\insta_03.jpg" />
+    <Content Include="img\instagram-feed\insta_04.jpg" />
+    <Content Include="img\instagram-feed\insta_05.jpg" />
+    <Content Include="img\instagram-feed\insta_06.jpg" />
+    <Content Include="img\members\member_05-1.jpg" />
+    <Content Include="img\members\member_05-3.jpg" />
+    <Content Include="img\members\member_05-4.jpg" />
+    <Content Include="img\members\member_05-6.jpg" />
+    <Content Include="img\testimonials\2.jpg" />
+    <Content Include="img\testimonials\3.jpg" />
+    <Content Include="img\theme_logo_dark.png" />
+    <Content Include="img\theme_logo_light.png" />
+    <Content Include="Info.txt" />
+    <Content Include="js\app.js" />
+    <Content Include="js\custom.js" />
+    <Content Include="js\file-upload.js" />
+    <Content Include="js\jquery-1.12.4.js" />
+    <Content Include="js\jquery-ui.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\jquery.ssd-vertical-navigation.js" />
+    <Content Include="js\jquery.ssd-vertical-navigation.min.js" />
+    <Content Include="js\plugins.js" />
+    <Content Include="listaartigocolumn.aspx" />
+    <Content Include="download.aspx" />
+    <Content Include="listaartigoholdd.aspx" />
+    <Content Include="listamedia.aspx" />
+    <Content Include="message.aspx" />
+    <Content Include="Contacte_nos.aspx" />
+    <Content Include="Missoes.aspx" />
+    <Content Include="Noticias.aspx" />
+    <Content Include="Listaartigo.aspx" />
+    <Content Include="templatemonster.txt" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Contacte_nos.aspx.cs">
+      <DependentUpon>Contacte_nos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contacte_nos.aspx.designer.cs">
+      <DependentUpon>Contacte_nos.aspx</DependentUpon>
+    </Compile>
+    <Content Include="App_Code\ContentType.cs" />
+    <Compile Include="App_Code\WebSite.cs" />
+    <Compile Include="contacto.aspx.cs">
+      <DependentUpon>contacto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contacto.aspx.designer.cs">
+      <DependentUpon>contacto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="detalheartigo.aspx.cs">
+      <DependentUpon>detalheartigo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="detalheartigo.aspx.designer.cs">
+      <DependentUpon>detalheartigo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Gruposcorais.aspx.cs">
+      <DependentUpon>Gruposcorais.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Gruposcorais.aspx.designer.cs">
+      <DependentUpon>Gruposcorais.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="listaartigocolumn.aspx.cs">
+      <DependentUpon>listaartigocolumn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="listaartigocolumn.aspx.designer.cs">
+      <DependentUpon>listaartigocolumn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="download.aspx.cs">
+      <DependentUpon>download.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="download.aspx.designer.cs">
+      <DependentUpon>download.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="listaartigoholdd.aspx.cs">
+      <DependentUpon>listaartigoholdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="listaartigoholdd.aspx.designer.cs">
+      <DependentUpon>listaartigoholdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="listamedia.aspx.cs">
+      <DependentUpon>listamedia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="listamedia.aspx.designer.cs">
+      <DependentUpon>listamedia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Service.cs" />
+    <Compile Include="message.aspx.cs">
+      <DependentUpon>message.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="message.aspx.designer.cs">
+      <DependentUpon>message.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Missoes.aspx.cs">
+      <DependentUpon>Missoes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Missoes.aspx.designer.cs">
+      <DependentUpon>Missoes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Noticias.aspx.cs">
+      <DependentUpon>Noticias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Noticias.aspx.designer.cs">
+      <DependentUpon>Noticias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="obj\Release\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Release\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Release\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Listaartigo.aspx.cs">
+      <DependentUpon>Listaartigo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Listaartigo.aspx.designer.cs">
+      <DependentUpon>Listaartigo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\PIBLUANDA.dll.config" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\Simple-Line-Icons.ttf" />
+    <None Include="Properties\PublishProfiles\CBA-WEBSITE.pubxml" />
+    <None Include="Properties\PublishProfiles\file.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CMSCK\CMSCK.WEB.csproj">
+      <Project>{8D3CA19E-E3C5-4C15-8B5C-950AE57BA6BA}</Project>
+      <Name>CMSCK.WEB</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="uploads\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>52454</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:52454/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

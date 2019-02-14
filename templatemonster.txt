@@ -1,0 +1,307 @@
+﻿https://livedemo00.template-help.com/wt_44324/
+
+
+
+
+
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="PIBLUANDA._default" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Home</title>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-P9FT69"></script>
+    <script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script>
+    <script src="/cdn-cgi/apps/head/3ts2ksMwXvKRuG480KNifJ2_JNM.js"></script>
+    <script src="/cdn-cgi/apps/body/4o300efCt-CXoq1JEC-sVReFz48.js"></script>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+    <link rel="stylesheet" href="css/camera.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <link rel="stylesheet" href="data:text/css;charset=utf-8;base64,Y2xvdWRmbGFyZS1hcHBbYXBwLWlkPSJhLWJldHRlci1icm93c2VyIl0gewogIGRpc3BsYXk6IGJsb2NrOwogIGJhY2tncm91bmQ6ICM0NTQ4NGQ7CiAgY29sb3I6ICNmZmY7CiAgbGluZS1oZWlnaHQ6IDEuNDU7CiAgcG9zaXRpb246IGZpeGVkOwogIHotaW5kZXg6IDkwMDAwMDAwOwogIHRvcDogMDsKICBsZWZ0OiAwOwogIHJpZ2h0OiAwOwogIHBhZGRpbmc6IC41ZW0gMWVtOwogIHRleHQtYWxpZ246IGNlbnRlcjsKICAtd2Via2l0LXVzZXItc2VsZWN0OiBub25lOwogICAgIC1tb3otdXNlci1zZWxlY3Q6IG5vbmU7CiAgICAgIC1tcy11c2VyLXNlbGVjdDogbm9uZTsKICAgICAgICAgIHVzZXItc2VsZWN0OiBub25lOwp9CgpjbG91ZGZsYXJlLWFwcFthcHAtaWQ9ImEtYmV0dGVyLWJyb3dzZXIiXVtkYXRhLXZpc2liaWxpdHk9ImhpZGRlbiJdIHsKICBkaXNwbGF5OiBub25lOwp9CgpjbG91ZGZsYXJlLWFwcFthcHAtaWQ9ImEtYmV0dGVyLWJyb3dzZXIiXSBjbG91ZGZsYXJlLWFwcC1tZXNzYWdlIHsKICBkaXNwbGF5OiBibG9jazsKfQoKY2xvdWRmbGFyZS1hcHBbYXBwLWlkPSJhLWJldHRlci1icm93c2VyIl0gYSB7CiAgdGV4dC1kZWNvcmF0aW9uOiB1bmRlcmxpbmU7CiAgY29sb3I6ICNlYmViZjQ7Cn0KCmNsb3VkZmxhcmUtYXBwW2FwcC1pZD0iYS1iZXR0ZXItYnJvd3NlciJdIGE6aG92ZXIsCmNsb3VkZmxhcmUtYXBwW2FwcC1pZD0iYS1iZXR0ZXItYnJvd3NlciJdIGE6YWN0aXZlIHsKICBjb2xvcjogI2RiZGJlYjsKfQoKY2xvdWRmbGFyZS1hcHBbYXBwLWlkPSJhLWJldHRlci1icm93c2VyIl0gY2xvdWRmbGFyZS1hcHAtY2xvc2UgewogIGRpc3BsYXk6IGJsb2NrOwogIGN1cnNvcjogcG9pbnRlcjsKICBmb250LXNpemU6IDEuNWVtOwogIHBvc2l0aW9uOiBhYnNvbHV0ZTsKICByaWdodDogLjRlbTsKICB0b3A6IC4zNWVtOwogIGhlaWdodDogMWVtOwogIHdpZHRoOiAxZW07CiAgbGluZS1oZWlnaHQ6IDE7Cn0KCmNsb3VkZmxhcmUtYXBwW2FwcC1pZD0iYS1iZXR0ZXItYnJvd3NlciJdIGNsb3VkZmxhcmUtYXBwLWNsb3NlOmFjdGl2ZSB7CiAgLXdlYmtpdC10cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMXB4KTsKICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgxcHgpOwp9CgpjbG91ZGZsYXJlLWFwcFthcHAtaWQ9ImEtYmV0dGVyLWJyb3dzZXIiXSBjbG91ZGZsYXJlLWFwcC1jbG9zZTpob3ZlciB7CiAgb3BhY2l0eTogLjllbTsKICBjb2xvcjogI2ZmZjsKfQo=">
+    <script src="js/jquery-migrate-1.1.1.js"></script>
+    <script src="js/script.js"></script>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0">
+    <script type="text/javascript" src="js/superfish.js"></script>
+    <script type="text/javascript" src="js/jquery.mobilemenu.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.ui.totop.js"></script>
+    <script src="js/camera.js"></script>
+    <!--[if (gt IE 9)|!(IE)]><!-->
+    <script type="text/javascript" src="js/jquery.mobile.customized.min.js"></script>
+    <!--<![endif]-->
+    <script>
+        $(document).ready(function () {
+            jQuery('#camera_wrap').camera({
+                loader: false,
+                pagination: true,
+                thumbnails: false,
+                height: '46.27659574468085%',
+                caption: false,
+                navigation: true,
+                fx: 'simpleFade'
+            });
+        });
+        jQuery(function () {
+            $().UItoTop({ easingType: 'easeOutQuart' });
+        });
+    </script>
+    <!--[if lt IE 8]>
+       <div style=' clear: both; text-align:center; position: relative;'>
+         <a href="https://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+           <img src="https://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+         </a>
+      </div>
+    <![endif]-->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+
+    <![endif]-->
+</head>
+<body class="page1">
+
+    <div class="page">
+
+        <!--==============================header=================================-->
+        <header class="mb0">
+            <div class="container_12">
+                <div class="grid_12">
+
+                    <h1><a href="index.html">
+                        <img src="images/logo.png" alt="vortex Professional Research"></a> </h1>
+                    <div class="links">
+                        <strong><a href="#">Rua Comandante Kwenha nº1, 222 430 233</a>      <a href="contactenos.aspx">Contacte-nos</a>
+                        </strong>
+                    </div>
+
+
+                    <div class="clear"></div>
+
+                    <div class="menu_block">
+                        <nav>
+                            <ul class="sf-menu sf-js-enabled">
+                                <li class="current"><a href="index.html">Início</a></li>
+                                <li class=""><a href="index-1.html" class="sf-with-ul">Institucional<span class="menu-arrow"></span></a>
+                                    <ul style="display: none;">
+                                        <li><a href="#">Boas Vindas</a></li>
+                                        <li><a href="#">Quem Somos</a></li>
+                                        <li><a href="#">Departamentos</a></li>
+                                        <li><a href="#">Princípios Baptistas</a></li>
+                                        <li><a href="#">Organigrama</a></li>
+                                        <li><a href="#">Pacto das Igrejas Baptistas</a></li>
+                                        <li><a href="#">Historial</a></li>
+                                        <li><a href="#">Documentos</a></li>
+                                        <li><a href="#">Plano Estratégico da CBA 2016-2027</a></li>
+                                        <li><a href="#">outros</a></li>
+                                    </ul>
+                                </li>
+                                <li class=""><a href="index-1.html" class="sf-with-ul">Eventos<span class="menu-arrow"></span></a>
+                                    <ul style="display: none;">
+                                        <li><a href="#">Calendário Denominacional</a></li>
+                                        <li><a href="#">Próximos Eventos</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="index-3.html">Notícias</a></li>
+                                <li><a href="index-4.html">Projectos</a> </li>
+                                <li><a href="index-5.html">Missões</a></li>
+                            </ul>
+                        </nav>
+
+                        <div class="clear"></div>
+                    </div>
+
+                </div>
+
+                <div class="clear"></div>
+            </div>
+            <div class="slider_wrapper">
+                <div class="container_12">
+                    <div class="grid_12">
+                        <div id="camera_wrap" class="camera_wrap" style="display: block; margin-bottom: 4px; height: 435px;">
+                            <div class="camera_fakehover">
+                                <div class="camera_src camerastarted">
+                                    <div data-src="images/slide.jpg"></div>
+                                    <div data-src="images/slide1.jpg"></div>
+                                    <div data-src="images/slide2.jpg">
+                                        <div class="caption faidIn">Serving science and<br>
+                                            technology</div>
+                                    </div>
+                                </div>
+                                <div class="camera_target">
+                                    <div class="cameraCont">
+                                        <div class="cameraSlide cameraSlide_0" style="visibility: visible; display: none; z-index: 1;">
+                                            <img src="images/slide.jpg?1506602239925" class="imgLoaded" data-alignment="" data-portrait="" width="940" height="435" style="visibility: visible; height: 435px; margin-left: 0px; margin-top: 0px; position: absolute; width: 940px;">
+                                            <div class="camerarelative" style="width: 940px; height: 435px;"></div>
+                                        </div>
+                                        <div class="cameraSlide cameraSlide_1 cameracurrent" style="display: block; z-index: 999;">
+                                            <img src="images/slide1.jpg?1506602242065" class="imgLoaded" data-alignment="" data-portrait="" width="940" height="435" style="visibility: visible; height: 435px; margin-top: 0px; position: absolute; margin-left: 0px; width: 940px;">
+                                            <div class="camerarelative" style="width: 940px; height: 435px;"></div>
+                                        </div>
+                                        <div class="cameraSlide cameraSlide_2 cameranext" style="display: none;">
+                                            <img src="images/slide2.jpg?1506602251598" class="imgLoaded" data-alignment="" data-portrait="" width="940" height="435" style="visibility: visible; height: 435px; margin-top: 0px; position: absolute; margin-left: 0px; width: 940px;">
+                                            <div class="camerarelative" style="width: 940px; height: 435px;"></div>
+                                        </div>
+                                        <div class="cameraSlide cameraSlide_3" style="z-index: 1; display: none;">
+                                            <div class="camerarelative" style="width: 940px; height: 435px;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="camera_overlayer"></div>
+                                <div class="camera_target_content">
+                                    <div class="cameraContents">
+                                        <div class="cameraContent" style="display: none;">
+                                            <div class="caption faidIn">
+                                                Discover surprising<br>
+                                                science world
+                                            </div>
+                                        </div>
+                                        <div class="cameraContent cameracurrent" style="display: block;">
+                                            <div class="caption faidIn">
+                                                Making greatest<br>
+                                                discoverie
+                                            </div>
+                                        </div>
+                                        <div class="cameraContent"></div>
+                                    </div>
+                                </div>
+                                <div class="camera_bar" style="display: none; top: auto; height: 7px;"><span class="camera_bar_cont" style="opacity: 0.8; position: absolute; left: 0px; right: 0px; top: 0px; bottom: 0px; background-color: rgb(34, 34, 34);"><span id="pie_0" style="opacity: 0.8; position: absolute; left: 0px; right: 0px; top: 2px; bottom: 2px; display: block; background-color: rgb(238, 238, 238);"></span></span></div>
+                                <div class="camera_commands">
+                                    <div class="camera_play" style="display: none;"></div>
+                                    <div class="camera_stop" style="display: block;"></div>
+                                </div>
+                                <div class="camera_prev"><span></span></div>
+                                <div class="camera_next"><span></span></div>
+                            </div>
+                            <div class="camera_pag">
+                                <ul class="camera_pag_ul">
+                                    <li class="pag_nav_0" style="position: relative; z-index: 1002"><span><span>0</span></span></li>
+                                    <li class="pag_nav_1 cameracurrent" style="position: relative; z-index: 1002"><span><span>1</span></span></li>
+                                    <li class="pag_nav_2" style="position: relative; z-index: 1002"><span><span>2</span></span></li>
+                                </ul>
+                            </div>
+                            <div class="camera_loader" style="display: none; visibility: visible;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!--=======content================================-->
+        <div class="content page1">
+            <div class="container_12">
+                <div class="grid_3">
+                    <div class="pad1">
+                        <h2>Plano Cooperativo</h2>
+                        <img src="images/icon1.png" alt="" class="icon">Lorem ipsum dolor sit am consecte tuer adipiscing elit sed diam nonummy nibhemen euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Uten wisi enim ad minim.<br>
+                        <a href="#" class="btn">Mais</a>
+                    </div>
+                </div>
+                <div class="grid_3">
+                    <div class="pad1">
+                        <h2>Encontre um igreja</h2>
+                        <img src="images/icon2.png" alt="" class="icon">Lorem ipsum dolor sit am consecte tuer adipiscing elit sed diam nonummy nibhemen euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Uten wisi enim ad minim.<br>
+                        <a href="#" class="btn">Mais</a>
+                    </div>
+                </div>
+                <div class="grid_3">
+                    <div class="pad1">
+                        <h2>technologies</h2>
+                        <img src="images/icon3.png" alt="" class="icon">Lorem ipsum dolor sit am consecte tuer adipiscing elit sed diam nonummy nibhemen euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Uten wisi enim ad minim.<br>
+                        <a href="#" class="btn">Mais</a>
+                    </div>
+                </div>
+                <div class="grid_3">
+                    <div class="pad1">
+                        <h2>experience</h2>
+                        <img src="images/icon4.png" alt="" class="icon">Lorem ipsum dolor sit am consecte tuer adipiscing elit sed diam nonummy nibhemen euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Uten wisi enim ad minim.<br>
+                        <a href="#" class="btn">Mais</a>
+                    </div>
+
+                </div>
+                <div class="clear"></div>
+                <div class="grid_12">
+                    <div class="hor_separator"></div>
+                </div>
+                <div class="clear"></div>
+                <div class="grid_3">
+                    <h2>Links Utéis </h2>
+                    <ul class="list">
+                        <li><a href="www.bwanet.org">Aliança Baptista Mundial</a></li>
+                        <li><a href="www.sbc.net">Convenção Baptista do Sul</a></li>
+                        <li><a href="#">XXXXXXXXXXXX</a></li>
+                        <li><a href="#">YYYYYYYYYYYY</a></li>
+                        <li><a href="#">ZZZZZZZZZZZZ</a></li>
+                        <li><a href="#">WWWWWWWWWWWW</a></li>
+                    </ul>
+                </div>
+                <div class="grid_6">
+                    <div class="pad1">
+                        <h2>Bem-Vindo ao nosso sítio</h2>
+                        <div class="text1"><strong><a href="#">A nossa igreja espera por si, visite-nos</a></strong></div>
+                        <img src="images/page1_img1.jpg" alt="" class="img_inner">
+                        Lorem ipsum dolor sitemenum consecte tuer adipiscing elit sed diam nonummy nibheme euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Uten wisi enim ad minim veniam, quis nostrud exerci tation ullamc orper suscipit lobortis nisl aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse.
+                    </div>
+                </div>
+                <div class="grid_3">
+                    <h2>Notícias Recentes</h2>
+                    <div class="new">
+                        <time datetime="2013-01-01">29<span>june</span></time>
+                        <div class="extra_wrapper">
+                            <div class="text1"><strong><a href="#">Lorem ipsum dol siamet</a></strong></div>
+                            <p>Lorem ipsum dolor sitemenum consecte tuer adipiscing. </p>
+                            <strong class="col1"><a href="#">• Ler Mais</a></strong>
+
+                        </div>
+                        <div class="hor_separator"></div>
+                    </div>
+
+                    <div class="new">
+                        <time datetime="2013-01-01">29<span>june</span></time>
+                        <div class="extra_wrapper">
+                            <div class="text1"><strong><a href="#">Sed ut perspiciatis undem </a></strong></div>
+                            <p>Consecte tuer adipiscing elit sed diam nonummy nibhemen.</p>
+                            <strong class="col1"><a href="#">• Ler Mais</a></strong>
+                        </div>
+                        <div class="hor_separator mb0 "></div>
+                    </div>
+                    <a href="#" class="btn">Ver tudo</a>
+                </div>
+            </div>
+        </div>
+
+        <!--==============================footer=================================-->
+    </div>
+    <footer>
+        <div class="container_12">
+            <div class="grid_12">
+                Convenção Baptista de Angola  © <%=DateTime.Now.Year.ToString() %> <a href="index-6.html">Política de Privacidade</a>
+                <!--{%FOOTER_LINK} -->
+            </div>
+
+        </div>
+    </footer>
+
+    <!--LIVEDEMO_00 -->
+
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-7078796-5']);
+        _gaq.push(['_trackPageview']);
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();</script>
+
+    <noscript>&lt;iframe src="//www.googletagmanager.com/ns.html?id=GTM-P9FT69"height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</noscript>
+    <script>(function (w, d, s, l, i) { w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' }); var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f); })(window, document, 'script', 'dataLayer', 'GTM-P9FT69');</script>
+    <!-- End Google Tag Manager -->
+    <a href="#" id="toTop" style="margin-right: -564px; right: 50%; display: none;"><span id="toTopHover"></span></a>
+</body>
+<!-- Google Tag Manager -->
+</html>
